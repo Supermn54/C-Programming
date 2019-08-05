@@ -4,6 +4,7 @@
 - `*` is known as the dereference operator. Also known as the "Value at Address" operator because when used, it returns the value at the assigned address.
 	- Coincidentaly used to declare a pointer but doesn't act as a dereference operator.
 - `&` is known as the reference operators. Also known as the "Address of" operator because when used, it returns the address of the variable. 
+
 **Notables**
 ```
 int a = 10;
