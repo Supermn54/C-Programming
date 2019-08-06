@@ -2,7 +2,7 @@
 Refresher on advance C-Programming concepts.
 
 ## Pointers
-- [ ] Pointer Variables
+- [X] Pointer Variables
 - [ ] Function Pointers
 - [ ] Opaque Pointers
 
