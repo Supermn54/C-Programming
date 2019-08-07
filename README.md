@@ -19,7 +19,7 @@ Refresher on advance C-Programming concepts.
 - [ ] Callbacks
 
 ## Memory Allocation
-- [ ] Stack
+- [X] Stack
 - [ ] Heap
 
 ## OOP for C
