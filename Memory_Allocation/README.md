@@ -1,4 +1,11 @@
 # Memory Allocation
+## Allocating Memory
+There are two ways that memory gets allocated:
+1. Compile Time (or static) Allocation
+   - Occurs on the Stack
+2. Dynamic Memory Allocation
+   - Occurs on the Heap
+
 ## Stack
 Area of memory used to store local variables. "LIFO" (last in, first out) data structure that is managed and optimized by the CPU. When a new variable is declared, it is "pushed" onto the stack. Everytime a function exits, all the variables on the stack are freed/deleted.
 
