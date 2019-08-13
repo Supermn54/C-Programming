@@ -33,14 +33,15 @@ A free-floating region of memory used to allocate memory "on the fly" during run
 - return value is a pointer to the requested memory
 - type `void*` is a *generic pointer* that can represent a pointer of any type:
 
-`int *p = malloc(10 * sizeof(int)); //allocates bytes for 10 integers`
+    `int *p = malloc(10 * sizeof(int)); //allocates bytes for 10 integers`
 - in this example, the return value of `malloc()` is automatically converted to type `int *`
 - A good best practice is to also include an explicit cast to the desiree type:
 
-`int *p = (int *) malloc(10 * sizeof(int));`
+    `int *p = (int *) malloc(10 * sizeof(int));`
 - returns a NULL pointer if the call fails (eg not enough physical memory)
 
 `void free(void *)`
 - releases memory allocated by `malloc()` and returns it to the heap
-`free(p);`
+
+    `free(p);`
 - does not require an explicit cast for the conversion of the pointer of type `int*` to type `void*`
